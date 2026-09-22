@@ -60,6 +60,7 @@ cursor: pointer;
 .video-title {
     font-size: 18px;
     width: 300px;
+    color: black;
 }
 .gap-tiny {
     gap: 4px;
@@ -69,4 +70,7 @@ cursor: pointer;
     color: rgb(69, 69, 69);
     font-size: small;
     justify-content: start;
+}
+a {
+    text-decoration: none;
 }
