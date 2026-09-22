@@ -3,15 +3,24 @@
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.3s ease-in;
-  top: 12px;
+  bottom: 12px;
   left: 12px;
   background-color: white;
   color: black;
   box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.489);
   border-radius: 12px;
-  height: 100px;
-  width: 200px;
+  height: 80px;
+  width: 240px;
   padding: 12px;
+
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.video-tooltip img {
+  height: 50px;
+  width: 50px;
 }
 
 .video-card:hover .video-tooltip {
